@@ -1,0 +1,120 @@
+html, body {
+	height: 100%;
+}
+
+#jumbotronBackground {
+	background-image: url(../assets/backgrounds/landing.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Courier", cursive, sans-serif;
+	font-size: 25px;
+}
+
+.rightPrice {
+	color: #fff;
+}
+
+#menu {
+	color: #F15A29;
+}
+
+#menu-items {
+	color: #000;
+}
+
+.center {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#fastfoodBackground {
+	background-image: url(../assets/backgrounds/foodsBg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#tomatoBg {
+	background-image: url(../assets/backgrounds/subscribe.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 100px;
+	color: #fff;
+	margin: 0 auto;
+}
+
+#tomatoBg, form {
+	align-items: center;
+	display: flex;
+
+}
+
+.customers-wrapper {
+	text-align: center;
+	border: 2px solid #D3D3D3;
+	padding: 40px;
+	margin: 70px 0px 70px 0px;
+}
+
+.customers-wrapper h2 {
+	color: #F15A29;
+}
+
+.customers-inner {
+	border-right: thin solid #D3D3D3;
+	float: left;
+	max-width: 60%;
+}
+
+#footer {
+	background-color: #F15A29;
+	text-align: center;
+	padding: 40px;
+	color: #fff;
+}
+
+#burger {
+	left: 560px;
+	position: absolute;
+}
+
+#footer, h1 {
+	position: relative;
+}
+
+#footer, .social {
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.breakfast {
+	background-image: url(../assets/foodtop/breakfast.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.lunch {
+	background-image: url(../assets/foodtop/lunch.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.dinner {
+	background-image: url(../assets/foodtop/dinner.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.upperDiv {
+	background-color: #fff;
+}
+
+.lowerDiv {
+	background-color: #F15A29;
+}
+
+div.breakfast:hover, 
+div.lunch:hover, 
+div.dinner:hover {
+	background-color: white;
+}
+
